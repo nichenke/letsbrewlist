@@ -1,0 +1,10 @@
+cron:
+- description: frequent updates
+  url: /update/
+  schedule: every 1 hours
+- description: weekly updates
+  url: /update/weekly
+  schedule: every monday 07:00
+- description: all updates
+  url: /update/all
+  schedule: 1st monday of month 07:00
